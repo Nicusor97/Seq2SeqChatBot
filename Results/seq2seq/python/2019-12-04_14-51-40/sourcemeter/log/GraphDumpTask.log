@@ -1,0 +1,6 @@
+[2019-12-04 14:51:49] Start:GraphDumpTask
+GraphDumpTool 8.2.0 (build 8717#45192 Win32) - (C) 2001-2016 FrontEndART Ltd.
+Loading: E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\seq2seq.graph
+Creating csv dump ...
+Creating xml dump ...
+[2019-12-04 14:51:51] End:GraphDumpTask Result:OK

@@ -1,0 +1,13 @@
+[2019-12-04 14:51:44] Start:PAN2LimTask
+PAN2Lim 8.2.0 (build 8717#45192 Win32) - (C) 2001-2016 FrontEndART Ltd.
+Loading file:    E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\asg\seq2seq.psi
+
+Statistics:
+	Converting time              :       0.02s
+	Saving asg time              :       0.00s
+	Dumping limml time           :       0.00s
+	Total time                   :       0.02s
+	Peak memory usage            :          5MB
+	Number of not existed files  :          0
+
+[2019-12-04 14:51:45] End:PAN2LimTask Result:OK

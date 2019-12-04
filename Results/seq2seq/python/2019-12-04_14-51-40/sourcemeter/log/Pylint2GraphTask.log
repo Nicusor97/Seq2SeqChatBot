@@ -1,0 +1,18 @@
+[2019-12-04 14:51:46] Start:Pylint2GraphTask
+Pylint2Graph 8.2.0 (build 8717#45192 Win32) - (C) 2001-2016 FrontEndART Ltd.
+Loading LIM ASG file "E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\asg\seq2seq.lim"
+Loading filter file "E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\asg\seq2seq.flim"
+Using configuration: "Default"
+Warning: Warning 'PYLINT_TFPM' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:9 col:1 endline:9 endcol:1]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:14 col:1 endline:14 endcol:1]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:22 col:1 endline:22 endcol:1]
+Warning: Warning 'PYLINT_ReB' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:24 col:77 endline:24 endcol:77]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:36 col:1 endline:36 endcol:1]
+Warning: Warning 'PYLINT_IED' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:37 col:1 endline:37 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:40 col:1 endline:40 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:41 col:1 endline:41 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:42 col:1 endline:42 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:43 col:1 endline:43 endcol:1]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:54 col:1 endline:54 endcol:1]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py line:59 col:1 endline:59 endcol:1]
+[2019-12-04 14:51:46] End:Pylint2GraphTask Result:OK

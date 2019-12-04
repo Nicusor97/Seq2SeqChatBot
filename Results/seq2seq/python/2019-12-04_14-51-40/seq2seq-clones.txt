@@ -1,0 +1,24 @@
+Number of Clone Classes: 5
+
+0~CloneClass [Number of Clone Instances: 4, Lines of Code: 15]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(23): 1~CloneInstance [Ln:23, Col:5 - Ln:37, Col:59]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(55): 2~CloneInstance [Ln:55, Col:5 - Ln:69, Col:59]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(21): 3~CloneInstance [Ln:21, Col:5 - Ln:35, Col:59]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(53): 4~CloneInstance [Ln:53, Col:5 - Ln:67, Col:59]
+
+5~CloneClass [Number of Clone Instances: 2, Lines of Code: 16]
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader_factory.py(10): 6~CloneInstance [Ln:10, Col:1 - Ln:25, Col:139]
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer_factory.py(10): 7~CloneInstance [Ln:10, Col:1 - Ln:27, Col:150]
+
+8~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(14): 9~CloneInstance [Ln:14, Col:1 - Ln:35, Col:59]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(40): 10~CloneInstance [Ln:40, Col:1 - Ln:67, Col:59]
+
+11~CloneClass [Number of Clone Instances: 2, Lines of Code: 24]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(14): 12~CloneInstance [Ln:14, Col:1 - Ln:37, Col:59]
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(42): 13~CloneInstance [Ln:42, Col:1 - Ln:69, Col:59]
+
+14~CloneClass [Number of Clone Instances: 2, Lines of Code: 15]
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(14): 15~CloneInstance [Ln:14, Col:5 - Ln:30, Col:34]
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(14): 16~CloneInstance [Ln:14, Col:5 - Ln:28, Col:64]
+

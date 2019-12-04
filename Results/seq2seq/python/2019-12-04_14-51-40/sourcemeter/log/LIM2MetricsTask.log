@@ -1,0 +1,11 @@
+[2019-12-04 14:51:45] Start:LIM2MetricsTask
+LIM2Metrics 8.2.0 - Python (build 8717#45192 Win32) - (C) 2001-2016 FrontEndART Ltd.
+Saving graph to E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\graph\seq2seq-metrics.graph
+Exporting rul
+
+Statistics:
+	Calculation time         :       0.01s
+	Export time              :       0.00s
+	Total time               :       0.09s
+	Peak memory usage        :       7.43MB
+[2019-12-04 14:51:46] End:LIM2MetricsTask Result:OK

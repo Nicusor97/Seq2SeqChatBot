@@ -1,0 +1,38 @@
+[2019-12-04 14:51:40] Start:PANTask
+PAN 8.2.0 (build 8717#45192 Win32) - (C) 2001-2016 FrontEndART Ltd.
+Parsing file: E:\workspace_niki\seq_2_seq\dataset_readers\__init__.py
+Parsing file: E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py
+Parsing file: E:\workspace_niki\seq_2_seq\dataset_readers\csv_dataset_reader.py
+Parsing file: E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py
+  File "E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py", line 37
+SyntaxError: Non-ASCII character '\xe2' in file E:\workspace_niki\seq_2_seq\dataset_readers\dailydialog_dataset_reader.py on line 37, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+ERROR: Parser error.
+Parsing file: E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py
+Parsing file: E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader_factory.py
+Parsing file: E:\workspace_niki\seq_2_seq\speech_to_text\__init__.py
+Parsing file: E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py
+Parsing file: E:\workspace_niki\seq_2_seq\text_to_speech\__init__.py
+Parsing file: E:\workspace_niki\seq_2_seq\text_to_speech\audio_profile.py
+Parsing file: E:\workspace_niki\seq_2_seq\text_to_speech\list_voices.py
+Parsing file: E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py
+Parsing file: E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py
+Parsing file: E:\workspace_niki\seq_2_seq\text_to_speech\text_to_speech.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\__init__.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\dependency_based_vocabulary_importer.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\nnlm_en_vocabulary_importer.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer_factory.py
+Parsing file: E:\workspace_niki\seq_2_seq\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py
+Saving ASG file: "E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\asg\seq2seq.psi"
+
+Statistics:
+	Parsing time                 :       0.02s
+	Saving asg time              :       0.02s
+	Dumping pml time             :       0.00s
+	Total time                   :       0.04s
+	Peak memory usage            :          8MB
+	Number of parser errors      :          1
+
+[2019-12-04 14:51:44] End:PANTask Result:OK

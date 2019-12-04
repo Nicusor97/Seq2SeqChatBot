@@ -1,0 +1,177 @@
+E:\workspace_niki\seq_2_seq\dataset_readers\__init__.py(1): PYLINT_MD: Missing module docstring
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(8): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(13): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(22): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(24): PYLINT_ReB: Redefining built-in 'file'
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(26): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(29): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(36): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(40): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\cornell_dataset_reader.py(43): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\csv_dataset_reader.py(10): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\dataset_readers\csv_dataset_reader.py(15): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\csv_dataset_reader.py(22): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\csv_dataset_reader.py(27): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\csv_dataset_reader.py(40): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(13): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(22): PYLINT_TFPM: Too few public methods (1/2)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(35): PYLINT_IN: Invalid method name "_get_dialog_lines_and_conversations"
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(38): PYLINT_LTL: Line too long (104/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(39): PYLINT_LTL: Line too long (107/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(46): PYLINT_LTL: Line too long (115/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(46): PYLINT_TMB: Too many branches (17/12)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(46): PYLINT_ToMA: Too many arguments (7/5)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(46): PYLINT_ToML: Too many local variables (25/15)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(59): PYLINT_LTL: Line too long (122/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(60): PYLINT_LTL: Line too long (153/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(61): PYLINT_LTL: Line too long (130/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(62): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(64): PYLINT_LTL: Line too long (109/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(65): PYLINT_LTL: Line too long (127/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(69): PYLINT_LTL: Line too long (109/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(70): PYLINT_LTL: Line too long (128/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(72): PYLINT_LTL: Line too long (123/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(76): PYLINT_LTL: Line too long (102/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(77): PYLINT_LTL: Line too long (129/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(79): PYLINT_LTL: Line too long (133/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(81): PYLINT_LTL: Line too long (105/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(83): PYLINT_LTL: Line too long (115/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(84): PYLINT_LTL: Line too long (117/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(86): PYLINT_LTL: Line too long (116/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(87): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(89): PYLINT_LTL: Line too long (124/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(98): PYLINT_LTL: Line too long (114/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(132): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(143): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(152): PYLINT_LTL: Line too long (111/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(153): PYLINT_LTL: Line too long (143/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(154): PYLINT_LTL: Line too long (113/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(155): PYLINT_LTL: Line too long (136/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(156): PYLINT_LTL: Line too long (126/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(157): PYLINT_LTL: Line too long (151/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(158): PYLINT_LTL: Line too long (145/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(169): PYLINT_LTL: Line too long (112/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(169): PYLINT_NSU: Method could be a function
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(169): PYLINT_ToMA: Too many arguments (8/5)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(184): PYLINT_LTL: Line too long (119/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(189): PYLINT_LTL: Line too long (128/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(190): PYLINT_LTL: Line too long (116/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(202): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(203): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(204): PYLINT_LTL: Line too long (113/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(205): PYLINT_LTL: Line too long (106/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(212): PYLINT_NSU: Method could be a function
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader.py(216): PYLINT_ReB: Redefining built-in 'file'
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader_factory.py(18): PYLINT_LTL: Line too long (108/100)
+E:\workspace_niki\seq_2_seq\dataset_readers\dataset_reader_factory.py(25): PYLINT_LTL: Line too long (139/100)
+E:\workspace_niki\seq_2_seq\speech_to_text\__init__.py(1): PYLINT_MD: Missing module docstring
+E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py(9): PYLINT_IN: Invalid constant name "_logger"
+E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py(10): PYLINT_IN: Invalid constant name "_recognizer"
+E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py(13): PYLINT_MD: Missing function docstring
+E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py(33): PYLINT_LFI: Use % formatting in logging functions but pass the % parameters as arguments
+E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py(35): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py(35): PYLINT_LFI: Use % formatting in logging functions but pass the % parameters as arguments
+E:\workspace_niki\seq_2_seq\speech_to_text\speech_to_text.py(38): PYLINT_LTL: Line too long (116/100)
+E:\workspace_niki\seq_2_seq\text_to_speech\__init__.py(1): PYLINT_MD: Missing module docstring
+E:\workspace_niki\seq_2_seq\text_to_speech\audio_profile.py(13): PYLINT_IN: Invalid function name "synthesize_text_with_audio_profile"
+E:\workspace_niki\seq_2_seq\text_to_speech\audio_profile.py(36): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\audio_profile.py(40): PYLINT_IN: Invalid constant name "parser"
+E:\workspace_niki\seq_2_seq\text_to_speech\audio_profile.py(41): PYLINT_BC: Wrong hanging indentation.
+E:\workspace_niki\seq_2_seq\text_to_speech\audio_profile.py(42): PYLINT_BC: Wrong hanging indentation.
+E:\workspace_niki\seq_2_seq\text_to_speech\audio_profile.py(50): PYLINT_IN: Invalid constant name "args"
+E:\workspace_niki\seq_2_seq\text_to_speech\list_voices.py(22): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\list_voices.py(26): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\list_voices.py(31): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(19): PYLINT_IN: Invalid variable name "f"
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(37): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(51): PYLINT_IN: Invalid variable name "f"
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(69): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(74): PYLINT_IN: Invalid constant name "parser"
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(77): PYLINT_IN: Invalid constant name "group"
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_file.py(83): PYLINT_IN: Invalid constant name "args"
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(35): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(67): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(72): PYLINT_IN: Invalid constant name "parser"
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(75): PYLINT_IN: Invalid constant name "group"
+E:\workspace_niki\seq_2_seq\text_to_speech\synthesize_text.py(81): PYLINT_IN: Invalid constant name "args"
+E:\workspace_niki\seq_2_seq\text_to_speech\text_to_speech.py(14): PYLINT_UA: Unused argument 'voice_gender'
+E:\workspace_niki\seq_2_seq\text_to_speech\text_to_speech.py(45): PYLINT_SP: Unnecessary parens after 'print' keyword
+E:\workspace_niki\seq_2_seq\vocabulary_importers\__init__.py(1): PYLINT_MD: Missing module docstring
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(10): PYLINT_AM: Method '_process_token' is abstract in class 'VocabularyImporter' but is not overridden
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(10): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(21): PYLINT_LTL: Line too long (105/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(23): PYLINT_LTL: Line too long (117/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(31): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(32): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(38): PYLINT_BW: No space allowed around keyword argument assignment
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(38): PYLINT_LTL: Line too long (136/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\checkpoint_vocabulary_importer.py(46): PYLINT_ReB: Redefining built-in 'file'
+E:\workspace_niki\seq_2_seq\vocabulary_importers\dependency_based_vocabulary_importer.py(6): PYLINT_UnI: Unused path imported from os
+E:\workspace_niki\seq_2_seq\vocabulary_importers\dependency_based_vocabulary_importer.py(12): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\dependency_based_vocabulary_importer.py(16): PYLINT_LTL: Line too long (102/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\dependency_based_vocabulary_importer.py(17): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(10): PYLINT_AM: Method '_process_token' is abstract in class 'VocabularyImporter' but is not overridden
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(10): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(21): PYLINT_LTL: Line too long (107/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(22): PYLINT_LTL: Line too long (130/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(33): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(34): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(38): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(39): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\flatfile_vocabulary_importer.py(41): PYLINT_ReB: Redefining built-in 'file'
+E:\workspace_niki\seq_2_seq\vocabulary_importers\nnlm_en_vocabulary_importer.py(6): PYLINT_UnI: Unused path imported from os
+E:\workspace_niki\seq_2_seq\vocabulary_importers\nnlm_en_vocabulary_importer.py(12): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\nnlm_en_vocabulary_importer.py(17): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(11): PYLINT_NI: Class has no __init__ method
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(11): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(13): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(15): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(15): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(18): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(18): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(19): PYLINT_LTL: Line too long (139/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(21): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(21): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(22): PYLINT_LTL: Line too long (115/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(22): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(25): PYLINT_LTL: Line too long (126/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(34): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(44): PYLINT_TFPM: Too few public methods (1/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(59): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(73): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(80): PYLINT_LTL: Line too long (122/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(84): PYLINT_BW: No space allowed around keyword argument assignment
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(84): PYLINT_LTL: Line too long (133/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(84): PYLINT_ToML: Too many local variables (16/15)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(86): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(90): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(101): PYLINT_LTL: Line too long (124/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(108): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(112): PYLINT_LTL: Line too long (137/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(115): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(117): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(122): PYLINT_LTL: Line too long (123/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(123): PYLINT_LTL: Line too long (107/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(129): PYLINT_LTL: Line too long (119/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(130): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(131): PYLINT_LTL: Line too long (118/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(132): PYLINT_LTL: Line too long (115/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(133): PYLINT_LTL: Line too long (141/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(134): PYLINT_LTL: Line too long (101/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(141): PYLINT_LTL: Line too long (111/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(144): PYLINT_LTL: Line too long (122/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(145): PYLINT_NM: Instance of 'VocabularyImportMode' has no 'name' member
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(151): PYLINT_BW: No space allowed around keyword argument assignment
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(154): PYLINT_BW: No space allowed around keyword argument assignment
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(157): PYLINT_IN: Invalid method name "_normalize_tokens_with_embeddings"
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(157): PYLINT_NSU: Method could be a function
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(158): PYLINT_LTL: Line too long (111/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer.py(171): PYLINT_TW: Trailing whitespace
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer_factory.py(5): PYLINT_LTL: Line too long (107/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer_factory.py(7): PYLINT_LTL: Line too long (103/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer_factory.py(18): PYLINT_LTL: Line too long (116/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\vocabulary_importer_factory.py(27): PYLINT_LTL: Line too long (150/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(6): PYLINT_UnI: Unused path imported from os
+E:\workspace_niki\seq_2_seq\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(12): PYLINT_TFPM: Too few public methods (0/2)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(16): PYLINT_LTL: Line too long (115/100)
+E:\workspace_niki\seq_2_seq\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(17): PYLINT_TW: Trailing whitespace

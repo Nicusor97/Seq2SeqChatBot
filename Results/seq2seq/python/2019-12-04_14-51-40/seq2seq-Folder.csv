@@ -1,0 +1,8 @@
+"ID","Name","LongName","Parent"
+"L107","E:","E:","L101"
+"L108","workspace_niki","E:/workspace_niki","L107"
+"L109","seq_2_seq","E:/workspace_niki/seq_2_seq","L108"
+"L110","dataset_readers","E:/workspace_niki/seq_2_seq/dataset_readers","L109"
+"L206","speech_to_text","E:/workspace_niki/seq_2_seq/speech_to_text","L109"
+"L221","text_to_speech","E:/workspace_niki/seq_2_seq/text_to_speech","L109"
+"L283","vocabulary_importers","E:/workspace_niki/seq_2_seq/vocabulary_importers","L109"

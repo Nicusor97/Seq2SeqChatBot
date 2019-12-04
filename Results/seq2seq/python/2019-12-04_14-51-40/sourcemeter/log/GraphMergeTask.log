@@ -1,0 +1,8 @@
+[2019-12-04 14:51:47] Start:GraphMergeTask
+GraphMerge 8.2.0 (build 8717#45192 Win32) - (C) 2001-2016 FrontEndART Ltd.
+Loading: E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\graph\seq2seq-DCF.graph
+Merging: E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\graph\seq2seq-FaultHunterPython.graph
+Merging: E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\graph\seq2seq-Pylint.graph
+Merging: E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\sourcemeter\graph\seq2seq-metrics.graph
+Saving: E:\workspace_niki\seq_2_seq\Results\seq2seq\python\2019-12-04_14-51-40\seq2seq.graph
+[2019-12-04 14:51:48] End:GraphMergeTask Result:OK
