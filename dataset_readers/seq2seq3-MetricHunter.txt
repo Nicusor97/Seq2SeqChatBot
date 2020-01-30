@@ -1,0 +1,2 @@
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(8):LCOM5_warning_Class: The metric LCOM5 (defined for Class 'CornellDatasetReader') value '2' is greater than the threshold value '1'.
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(10):LCOM5_warning_Class: The metric LCOM5 (defined for Class 'CSVDatasetReader') value '2' is greater than the threshold value '1'.

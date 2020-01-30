@@ -9,6 +9,10 @@ class CornellDatasetReader(DatasetReader):
     """Reader implementation for the Cornell movie dialog dataset
     """
     def __init__(self):
+        """
+        This method is called when an object is created from CornellDatasetReader class and
+        it allows the class to initialize the attributes of the class.
+        """
         super(CornellDatasetReader, self).__init__("cornell_movie_dialog")
     
     def _get_dialog_lines_and_conversations(self, dataset_dir):

@@ -23,10 +23,8 @@ dataset_reader = dataset_reader_factory.get_dataset_reader(dataset_dir)
 
 print()
 print("Reading dataset '{0}'...".format(dataset_reader.dataset_name))
-dataset, dataset_read_stats = dataset_reader.read_dataset(dataset_dir = dataset_dir,
-                                                          model_dir = model_dir,
-                                                          training_hparams = hparams.training_hparams, 
-                                                          share_vocab = hparams.model_hparams.share_embedding,
+dataset, dataset_read_stats = dataset_reader.read_dataset(directory_configuration="{0},{1}".format(dataset_dir, model_dir),
+                                                          hparams="{},{}".format(hparams.training_hparams, hparams.model_hparams.share_embedding),
                                                           encoder_embeddings_dir = encoder_embeddings_dir,
                                                           decoder_embeddings_dir = decoder_embeddings_dir)
 if encoder_embeddings_dir is not None:

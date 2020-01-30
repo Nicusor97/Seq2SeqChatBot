@@ -11,6 +11,11 @@ class CSVDatasetReader(DatasetReader):
     """Reader implementation for generic CSV question-answer datasets
     """
     def __init__(self):
+        """
+        This method is called when an object is created from CSVDatasetReader class and
+        it allows the class to initialize the attributes of the class.
+        """
+        # This is useful for accessing inherited methods that have been overridden in a class
         super(CSVDatasetReader, self).__init__("csv")
     
     def _get_dialog_lines_and_conversations(self, dataset_dir):

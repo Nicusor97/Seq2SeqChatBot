@@ -10,11 +10,63 @@ from vocabulary import Vocabulary
 from dataset import Dataset
 
 
+def _create_and_save_vocab(word_sequences, model_dir, vocab_filename, embeddings_dir, normalize_imported_vocab):
+    """Create a Vocabulary instance from a list of word sequences, and save it to disk.
+
+    Args:
+        word_sequences: List of word sequences (sentence(s)) to use as basis for the vocabulary.
+
+        vocab_threshold: Minimum number of times any word must appear within word_sequences
+            in order to be included in the vocabulary.
+
+        model_dir: directory to save the vocabulary file to
+
+        vocab_filename: file name of the vocabulary file
+
+        embeddings_dir: Optional directory to import external vocabulary & embeddings
+            If provided, the external vocabulary will be imported and processed according to the vocab_import_mode.
+            If None, only the generated vocabulary will be used.
+
+        normalize_imported_vocab: See VocabularyImporter.import_vocabulary
+
+        vocab_import_mode: If embeddings_dir is specified, this flag indicates if the dataset vocabulary should be generated
+            and used in combination with the external vocabulary according to the rules of VocabularyImportMode.
+    """
+    vocab_threshold = training_hparams.input_vocab_threshold
+    normalize_imported_vocab = training_hparams.input_vocab_import_normalized
+    vocab_import_mode = training_hparams.input_vocab_import_mode
+    
+    vocabulary = None
+    if embeddings_dir is None or vocab_import_mode != VocabularyImportMode.External:
+        vocabulary = Vocabulary()
+        for i in range(len(word_sequences)):
+            word_seq = word_sequences[i]
+            vocabulary.add_words(word_seq.split())
+        vocabulary.compile(vocab_threshold)
+
+    vocabulary_import_stats = None
+    if embeddings_dir is not None:
+        vocabulary_importer = vocabulary_importer_factory.get_vocabulary_importer(embeddings_dir)
+        vocabulary, vocabulary_import_stats = vocabulary_importer.import_vocabulary(embeddings_dir,
+                                                                                    normalize_imported_vocab,
+                                                                                    vocab_import_mode,
+                                                                                    vocabulary)
+
+    vocab_filepath = path.join(model_dir, vocab_filename)
+    vocabulary.save(vocab_filepath)
+    return vocabulary, vocabulary_import_stats
+
+
+
 class DatasetReadStats(object):
     """Contains information about the read dataset.
     """
 
     def __init__(self):
+        """
+        This method is called when an object is created from DatasetReadStats class and
+        it allows the class to initialize the attributes of the class.
+        """
         self.input_vocabulary_import_stats = None
         self.output_vocabulary_import_stats = None
 
@@ -29,6 +81,7 @@ class DatasetReader(object):
         Args:
             dataset_name: Name of the dataset. Subclass must pass this in.
         """
+        # initialize the dataset_name that will be used to retrieve the dialog and conversations lines
         self.dataset_name = dataset_name
 
     @abc.abstractmethod
@@ -43,8 +96,7 @@ class DatasetReader(object):
         """
         pass
 
-    def read_dataset(self, dataset_dir, model_dir, training_hparams, share_vocab=True, encoder_embeddings_dir=None,
-                     decoder_embeddings_dir=None):
+    def read_dataset(self, directory_configuration, hparams, encoder_embeddings_dir=None, decoder_embeddings_dir=None):
         """Read and return a chatbot dataset based on the specified dataset
 
         Args:
@@ -71,22 +123,10 @@ class DatasetReader(object):
             dataset vocabulary (see training_hparams.output_vocab_import_mode)
             If share_vocab is True, this argument must be None or the same as encoder_embeddings_dir (both are equivalent).
         """
-
-        if share_vocab:
-            if training_hparams.input_vocab_threshold != training_hparams.output_vocab_threshold and (
-                    encoder_embeddings_dir is None or training_hparams.input_vocab_import_mode != VocabularyImportMode.External):
-                raise ValueError(
-                    "Cannot share generated or joined imported vocabulary when the input and output vocab thresholds are different.")
-            if encoder_embeddings_dir is not None:
-                if training_hparams.input_vocab_import_mode != training_hparams.output_vocab_import_mode:
-                    raise ValueError(
-                        "Cannot share imported vocabulary when input and output vocab import modes are different.")
-                if training_hparams.input_vocab_import_normalized != training_hparams.output_vocab_import_normalized:
-                    raise ValueError(
-                        "Cannot share imported vocabulary when input and output normalization modes are different.")
-            if decoder_embeddings_dir is not None and decoder_embeddings_dir != encoder_embeddings_dir:
-                raise ValueError(
-                    "Cannot share imported vocabulary from two different sources or share import and generated vocabulary.")
+        dataset_dir, model_dir = directory_configuration.split(",")
+        training_hparams, share_vocab = hparams.split(",")
+        
+        self.check_vocabulary_type(share_vocab, training_hparams, encoder_embeddings_dir)
 
         read_stats = DatasetReadStats()
 
@@ -120,6 +160,82 @@ class DatasetReader(object):
                     answers.append(answer)
 
         # Create the vocabulary object & add the question & answer words
+        # Adding the End Of String tokens to the end of every answer
+        self.create_vocabulary_object(questions_for_count, answers, input_vocabulary, encoder_embeddings_dir)
+
+        for i in range(len(answers)):
+            answers[i] += " {0}".format(Vocabulary.EOS)
+
+        # Create the Dataset object from the questions / answers lists and the vocab object.
+        dataset = Dataset(questions, answers, input_vocabulary, output_vocabulary)
+
+        return dataset, read_stats
+
+    def check_vocabulary_type(self, share_vocab, training_hparams, encoder_embeddings_dir):
+        """
+        This function is used to check if the vocabulary is compatible with out embedings type and dataset. 
+        Args:
+          training_hparams: training parameters which determine how the dataset will be read.
+          See hparams.py for in-depth comments.
+
+          share_vocab: True to generate a single vocabulary file from the question and answer words.
+            False to generate separate input and output vocabulary files, from the question and answer words respectively.
+                (If training_hparams.conv_history_length > 0, share_vocab should be set to True since previous answers will be appended to the questions.
+                This could cause many of these previous answer words to map to <OUT> when looking up against the input vocabulary.
+                An exception to this is if the output vocabulary is a subset of the input vocaulary.)
+
+          encoder_embeddings_dir: Path to directory containing external embeddings to import for the encoder.
+            If this is specified, the input vocabulary will be loaded from this source and optionally joined with the generated
+            dataset vocabulary (see training_hparams.input_vocab_import_mode)
+            If share_vocab is True, the imported vocabulary is used for both input and output.
+        """
+        if share_vocab:
+            if training_hparams.input_vocab_threshold != training_hparams.output_vocab_threshold and (
+                    encoder_embeddings_dir is None or training_hparams.input_vocab_import_mode != VocabularyImportMode.External):
+                raise ValueError(
+                    "Cannot share generated or joined imported vocabulary when the input and output vocab thresholds are different.")
+            if encoder_embeddings_dir is not None:
+                if training_hparams.input_vocab_import_mode != training_hparams.output_vocab_import_mode:
+                    raise ValueError(
+                        "Cannot share imported vocabulary when input and output vocab import modes are different.")
+                if training_hparams.input_vocab_import_normalized != training_hparams.output_vocab_import_normalized:
+                    raise ValueError(
+                        "Cannot share imported vocabulary when input and output normalization modes are different.")
+            if decoder_embeddings_dir is not None and decoder_embeddings_dir != encoder_embeddings_dir:
+                raise ValueError(
+                    "Cannot share imported vocabulary from two different sources or share import and generated vocabulary.")
+
+
+    def create_vocabulary_object(self, hparams, questions_for_count, answers, input_vocabulary):
+        """
+        This function is used to create the vocabulary object and also to add the question and answer words.
+
+        Args:
+          dataset_dir: directory to load the raw dataset file(s) from
+
+          model_dir: directory to save the vocabulary to
+
+          training_hparams: training parameters which determine how the dataset will be read.
+          See hparams.py for in-depth comments.
+
+          share_vocab: True to generate a single vocabulary file from the question and answer words.
+            False to generate separate input and output vocabulary files, from the question and answer words respectively.
+                (If training_hparams.conv_history_length > 0, share_vocab should be set to True since previous answers will be appended to the questions.
+                This could cause many of these previous answer words to map to <OUT> when looking up against the input vocabulary.
+                An exception to this is if the output vocabulary is a subset of the input vocaulary.)
+
+          encoder_embeddings_dir: Path to directory containing external embeddings to import for the encoder.
+            If this is specified, the input vocabulary will be loaded from this source and optionally joined with the generated
+            dataset vocabulary (see training_hparams.input_vocab_import_mode)
+            If share_vocab is True, the imported vocabulary is used for both input and output.
+
+          decoder_embeddings_dir: Path to directory containing external embeddings to import for the decoder.
+            If this is specified, the output vocabulary will be loaded from this source and optionally joined with the generated
+            dataset vocabulary (see training_hparams.output_vocab_import_mode)
+            If share_vocab is True, this argument must be None or the same as encoder_embeddings_dir (both are equivalent).
+        """
+        training_hparams, share_vocab = hparams
+
         if share_vocab:
             questions_and_answers = []
             for i in range(len(questions_for_count)):
@@ -129,45 +245,30 @@ class DatasetReader(object):
                     questions_and_answers.append(question)
                 questions_and_answers.append(answer)
 
-            input_vocabulary, read_stats.input_vocabulary_import_stats = self._create_and_save_vocab(
+            input_vocabulary, read_stats.input_vocabulary_import_stats = _create_and_save_vocab(
                 questions_and_answers,
-                training_hparams.input_vocab_threshold,
+                training_hparams,
                 model_dir,
                 Vocabulary.SHARED_VOCAB_FILENAME,
-                encoder_embeddings_dir,
-                training_hparams.input_vocab_import_normalized,
-                training_hparams.input_vocab_import_mode)
+                encoder_embeddings_dir,)
             output_vocabulary = input_vocabulary
             read_stats.output_vocabulary_import_stats = read_stats.input_vocabulary_import_stats
         else:
-            input_vocabulary, read_stats.input_vocabulary_import_stats = self._create_and_save_vocab(
+            input_vocabulary, read_stats.input_vocabulary_import_stats = _create_and_save_vocab(
                 questions_for_count,
-                training_hparams.input_vocab_threshold,
+                training_hparams
                 model_dir,
                 Vocabulary.INPUT_VOCAB_FILENAME,
-                encoder_embeddings_dir,
-                training_hparams.input_vocab_import_normalized,
-                training_hparams.input_vocab_import_mode)
+                encoder_embeddings_dir)
 
-            output_vocabulary, read_stats.output_vocabulary_import_stats = self._create_and_save_vocab(answers,
-                                                                                                       training_hparams.output_vocab_threshold,
+            output_vocabulary, read_stats.output_vocabulary_import_stats = _create_and_save_vocab(answers,
+                                                                                                       training_hparams,
                                                                                                        model_dir,
                                                                                                        Vocabulary.OUTPUT_VOCAB_FILENAME,
                                                                                                        decoder_embeddings_dir,
-                                                                                                       training_hparams.output_vocab_import_normalized,
-                                                                                                       training_hparams.output_vocab_import_mode)
+                                                                                                       )
 
-        # Adding the End Of String tokens to the end of every answer
-        for i in range(len(answers)):
-            answers[i] += " {0}".format(Vocabulary.EOS)
-
-        # Create the Dataset object from the questions / answers lists and the vocab object.
-        dataset = Dataset(questions, answers, input_vocabulary, output_vocabulary)
-
-        return dataset, read_stats
-
-    def _create_and_save_vocab(self, word_sequences, vocab_threshold, model_dir, vocab_filename, embeddings_dir,
-                               normalize_imported_vocab, vocab_import_mode):
+    def _create_and_save_vocab(self, word_sequences, model_dir, vocab_filename, embeddings_dir, normalize_imported_vocab):
         """Create a Vocabulary instance from a list of word sequences, and save it to disk.
 
         Args:
@@ -189,6 +290,10 @@ class DatasetReader(object):
             vocab_import_mode: If embeddings_dir is specified, this flag indicates if the dataset vocabulary should be generated
                 and used in combination with the external vocabulary according to the rules of VocabularyImportMode.
         """
+        vocab_threshold = training_hparams.input_vocab_threshold
+        normalize_imported_vocab = training_hparams.input_vocab_import_normalized
+        vocab_import_mode = training_hparams.input_vocab_import_mode
+        
         vocabulary = None
         if embeddings_dir is None or vocab_import_mode != VocabularyImportMode.External:
             vocabulary = Vocabulary()
