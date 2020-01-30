@@ -11,6 +11,11 @@ _recognizer = sr.Recognizer()
 
 
 def audio_speak():
+    """
+    This function is used to recognize and convert the audio data into known data.
+    
+    Speak Anything and wait until the google cloud will recognize the voice.
+    """
     with sr.Microphone() as source:
         _logger.debug("Speak Anything and wait until the google cloud will recognize the voice")
         audio = _recognizer.listen(source)
