@@ -1,0 +1,8 @@
+"ID","Name","LongName","Parent"
+"L107","F:","F:","L101"
+"L108","Facultate -- Master 1","F:/Facultate -- Master 1","L107"
+"L109","Metrici software -  Final project","F:/Facultate -- Master 1/Metrici software -  Final project","L108"
+"L110","dataset_readers","F:/Facultate -- Master 1/Metrici software -  Final project/dataset_readers","L109"
+"L166","speech_to_text","F:/Facultate -- Master 1/Metrici software -  Final project/speech_to_text","L109"
+"L182","text_to_speech","F:/Facultate -- Master 1/Metrici software -  Final project/text_to_speech","L109"
+"L240","vocabulary_importers","F:/Facultate -- Master 1/Metrici software -  Final project/vocabulary_importers","L109"

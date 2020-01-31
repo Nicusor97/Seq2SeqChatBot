@@ -1,0 +1,8 @@
+[2020-01-31 23:55:36] Start:GraphMergeTask
+GraphMerge 8.2.0 (build 8717#45192 Win64) - (C) 2001-2016 FrontEndART Ltd.
+Loading: F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\sourcemeter\graph\seq2seq2-DCF.graph
+Merging: F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\sourcemeter\graph\seq2seq2-FaultHunterPython.graph
+Merging: F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\sourcemeter\graph\seq2seq2-Pylint.graph
+Merging: F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\sourcemeter\graph\seq2seq2-metrics.graph
+Saving: F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\seq2seq2.graph
+[2020-01-31 23:55:36] End:GraphMergeTask Result:OK

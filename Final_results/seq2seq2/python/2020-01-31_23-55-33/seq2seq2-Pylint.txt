@@ -1,0 +1,180 @@
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\__init__.py(1): PYLINT_MD: Missing module docstring
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(6): PYLINT_NNIM: No name 'dataset_reader' in module 'dataset_readers'
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(8): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(11): PYLINT_SuOOC: Use of super on an old style class
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(17): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(18): PYLINT_IN: Invalid method name "_get_dialog_lines_and_conversations"
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(18): PYLINT_NSU: Method could be a function
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(26): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(28): PYLINT_ReB: Redefining built-in 'file'
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(30): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(33): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(40): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(44): PYLINT_LTL: Line too long (103/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py(47): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(7): PYLINT_NNIM: No name 'dataset_reader' in module 'dataset_readers'
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(10): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(13): PYLINT_SuOOC: Use of super on an old style class
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(20): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(21): PYLINT_IN: Invalid method name "_get_dialog_lines_and_conversations"
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(21): PYLINT_NSU: Method could be a function
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(27): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(32): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py(45): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(18): PYLINT_LTL: Line too long (108/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(21): PYLINT_UV: Undefined variable 'self'
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(22): PYLINT_UV: Undefined variable 'self'
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(23): PYLINT_UV: Undefined variable 'self'
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(25): PYLINT_LTL: Line too long (139/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(29): PYLINT_LTL: Line too long (106/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(36): PYLINT_LTL: Line too long (106/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(43): PYLINT_LTL: Line too long (106/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py(46): PYLINT_MFN: Final newline missing
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\__init__.py(1): PYLINT_MD: Missing module docstring
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py(9): PYLINT_IN: Invalid constant name "_logger"
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py(10): PYLINT_IN: Invalid constant name "_recognizer"
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py(16): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py(38): PYLINT_LFI: Use % formatting in logging functions but pass the % parameters as arguments
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py(40): PYLINT_LTL: Line too long (103/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py(40): PYLINT_LFI: Use % formatting in logging functions but pass the % parameters as arguments
+F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py(43): PYLINT_LTL: Line too long (116/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\__init__.py(1): PYLINT_MD: Missing module docstring
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py(13): PYLINT_IN: Invalid function name "synthesize_text_with_audio_profile"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py(36): PYLINT_SP: Unnecessary parens after 'print' keyword
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py(40): PYLINT_IN: Invalid constant name "parser"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py(41): PYLINT_BC: Wrong hanging indentation.
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py(42): PYLINT_BC: Wrong hanging indentation.
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py(50): PYLINT_IN: Invalid constant name "args"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py(22): PYLINT_SP: Unnecessary parens after 'print' keyword
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py(26): PYLINT_SP: Unnecessary parens after 'print' keyword
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py(31): PYLINT_SP: Unnecessary parens after 'print' keyword
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(14): PYLINT_IN: Invalid constant name "parser"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(17): PYLINT_IN: Invalid constant name "group"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(23): PYLINT_IN: Invalid constant name "args"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(26): PYLINT_PSS: String statement has no effect
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(28): PYLINT_IN: Invalid constant name "client"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(30): PYLINT_UV: Undefined variable 'text_file'
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(31): PYLINT_IN: Invalid constant name "text"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(32): PYLINT_IN: Invalid constant name "input_text"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(36): PYLINT_IN: Invalid constant name "voice"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(40): PYLINT_IN: Invalid constant name "audio_config"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(43): PYLINT_IN: Invalid constant name "response"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(48): PYLINT_SP: Unnecessary parens after 'print' keyword
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(56): PYLINT_IN: Invalid constant name "client"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(58): PYLINT_UV: Undefined variable 'ssml_file'
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(59): PYLINT_IN: Invalid constant name "ssml"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(60): PYLINT_IN: Invalid constant name "input_text"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(64): PYLINT_IN: Invalid constant name "voice"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(68): PYLINT_IN: Invalid constant name "audio_config"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(71): PYLINT_IN: Invalid constant name "response"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py(76): PYLINT_MFN: Final newline missing
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(15): PYLINT_IN: Invalid constant name "parser"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(18): PYLINT_IN: Invalid constant name "group"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(24): PYLINT_IN: Invalid constant name "args"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(26): PYLINT_IN: Invalid constant name "client"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(27): PYLINT_IN: Invalid constant name "response"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(30): PYLINT_PSS: String statement has no effect
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(31): PYLINT_IN: Invalid constant name "input_text"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(31): PYLINT_UV: Undefined variable 'text'
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(35): PYLINT_IN: Invalid constant name "voice"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(39): PYLINT_IN: Invalid constant name "audio_config"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(42): PYLINT_IN: Invalid constant name "response"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(51): PYLINT_IN: Invalid constant name "input_text"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(51): PYLINT_UV: Undefined variable 'ssml'
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(55): PYLINT_IN: Invalid constant name "voice"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(59): PYLINT_IN: Invalid constant name "audio_config"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(62): PYLINT_IN: Invalid constant name "response"
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py(68): PYLINT_SP: Unnecessary parens after 'print' keyword
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\text_to_speech.py(14): PYLINT_UA: Unused argument 'voice_gender'
+F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\text_to_speech.py(45): PYLINT_SP: Unnecessary parens after 'print' keyword
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\__init__.py(1): PYLINT_MD: Missing module docstring
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(10): PYLINT_AM: Method '_process_token' is abstract in class 'VocabularyImporter' but is not overridden
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(10): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(20): PYLINT_LTL: Line too long (105/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(22): PYLINT_LTL: Line too long (117/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(31): PYLINT_LTL: Line too long (101/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(32): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(38): PYLINT_BW: No space allowed around keyword argument assignment
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(38): PYLINT_LTL: Line too long (136/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py(46): PYLINT_ReB: Redefining built-in 'file'
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py(6): PYLINT_UnI: Unused path imported from os
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py(12): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py(17): PYLINT_LTL: Line too long (104/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py(20): PYLINT_LTL: Line too long (102/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py(21): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(10): PYLINT_AM: Method '_process_token' is abstract in class 'VocabularyImporter' but is not overridden
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(10): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(12): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(13): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(23): PYLINT_LTL: Line too long (107/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(24): PYLINT_LTL: Line too long (130/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(32): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(38): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(42): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(44): PYLINT_LTL: Line too long (103/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(45): PYLINT_LTL: Line too long (129/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py(47): PYLINT_ReB: Redefining built-in 'file'
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\nnlm_en_vocabulary_importer.py(6): PYLINT_UnI: Unused path imported from os
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\nnlm_en_vocabulary_importer.py(12): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\nnlm_en_vocabulary_importer.py(21): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(11): PYLINT_NI: Class has no __init__ method
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(11): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(13): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(15): PYLINT_LTL: Line too long (101/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(15): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(18): PYLINT_LTL: Line too long (103/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(18): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(19): PYLINT_LTL: Line too long (139/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(21): PYLINT_LTL: Line too long (103/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(21): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(22): PYLINT_LTL: Line too long (115/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(22): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(25): PYLINT_LTL: Line too long (126/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(34): PYLINT_TFPM: Too few public methods (0/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(63): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(77): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(84): PYLINT_LTL: Line too long (122/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(88): PYLINT_BW: No space allowed around keyword argument assignment
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(88): PYLINT_LTL: Line too long (133/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(90): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(94): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(105): PYLINT_LTL: Line too long (124/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(112): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(116): PYLINT_LTL: Line too long (137/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(119): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(121): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(122): PYLINT_LTL: Line too long (114/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(125): PYLINT_LTL: Line too long (122/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(126): PYLINT_NM: Instance of 'VocabularyImportMode' has no 'name' member
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(132): PYLINT_BW: No space allowed around keyword argument assignment
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(135): PYLINT_BW: No space allowed around keyword argument assignment
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(138): PYLINT_LTL: Line too long (116/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(138): PYLINT_IN: Invalid method name "apply_dataset_filters_if_applicable"
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(138): PYLINT_MD: Missing method docstring
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(138): PYLINT_NSU: Method could be a function
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(143): PYLINT_LTL: Line too long (123/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(144): PYLINT_LTL: Line too long (107/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(150): PYLINT_LTL: Line too long (119/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(151): PYLINT_LTL: Line too long (101/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(152): PYLINT_LTL: Line too long (118/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(153): PYLINT_LTL: Line too long (115/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(154): PYLINT_LTL: Line too long (141/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(155): PYLINT_LTL: Line too long (101/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(162): PYLINT_LTL: Line too long (111/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(165): PYLINT_IN: Invalid method name "_normalize_tokens_with_embeddings"
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(165): PYLINT_NSU: Method could be a function
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(167): PYLINT_LTL: Line too long (108/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(168): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(170): PYLINT_LTL: Line too long (103/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py(183): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py(5): PYLINT_LTL: Line too long (107/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py(7): PYLINT_LTL: Line too long (103/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py(18): PYLINT_LTL: Line too long (116/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py(27): PYLINT_LTL: Line too long (150/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(6): PYLINT_UnI: Unused path imported from os
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(12): PYLINT_TFPM: Too few public methods (1/2)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(17): PYLINT_LTL: Line too long (106/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(20): PYLINT_LTL: Line too long (115/100)
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(21): PYLINT_TW: Trailing whitespace
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(38): PYLINT_UV: Undefined variable 'simple_type_of_tokens'
+F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py(42): PYLINT_NSA: Method should have "self" as first argument

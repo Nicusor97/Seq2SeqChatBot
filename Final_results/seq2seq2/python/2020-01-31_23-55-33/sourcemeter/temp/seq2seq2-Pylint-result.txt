@@ -1,0 +1,262 @@
+************* Module dataset_readers
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\__init__.py:1:0: [C0111(missing-docstring)] Missing module docstring
+************* Module dataset_readers.cornell_dataset_reader
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:17:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:26:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:30:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:33:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:40:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:44:0: [C0301(line-too-long)] Line too long (103/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:47:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:6:0: [E0611(no-name-in-module)] No name 'dataset_reader' in module 'dataset_readers'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:6:0: [F0401(import-error)] Unable to import 'dataset_readers.dataset_reader' (invalid syntax (<string>, line 260))
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:11:4: [E1002(super-on-old-class)] Use of super on an old style class
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:28:78: [W0622(redefined-builtin)] Redefining built-in 'file'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:18:4: [C0103(invalid-name)] Invalid method name "_get_dialog_lines_and_conversations"
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:18:4: [R0201(no-self-use)] Method could be a function
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\cornell_dataset_reader.py:8:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+************* Module dataset_readers.csv_dataset_reader
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:20:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:27:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:32:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:45:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:5:0: [F0401(import-error)] Unable to import 'pandas'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:7:0: [E0611(no-name-in-module)] No name 'dataset_reader' in module 'dataset_readers'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:7:0: [F0401(import-error)] Unable to import 'dataset_readers.dataset_reader' (invalid syntax (<string>, line 260))
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:13:4: [E1002(super-on-old-class)] Use of super on an old style class
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:21:4: [C0103(invalid-name)] Invalid method name "_get_dialog_lines_and_conversations"
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:21:4: [R0201(no-self-use)] Method could be a function
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\csv_dataset_reader.py:10:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+************* Module dataset_readers.dailydialog_dataset_reader
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:41:0: [W0512(invalid-encoded-data)] Cannot decode using encoding "ascii", unexpected byte at position 37
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:18:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:26:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:40:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:44:0: [C0326(bad-whitespace)] Exactly one space required after comma
+                turn = turn.replace(" ... ",  "... ")
+                                           ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:45:0: [C0326(bad-whitespace)] Exactly one space required after comma
+                turn = turn.replace(" .. . ",  "... ")
+                                            ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:46:0: [C0326(bad-whitespace)] Exactly one space required after comma
+                turn = turn.replace(" .. ",  ".. ")
+                                          ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:47:0: [C0326(bad-whitespace)] Exactly one space required after comma
+                turn = turn.replace(" . ",  ". ")
+                                         ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:58:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:63:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:6:0: [E0611(no-name-in-module)] No name 'dataset_reader' in module 'dataset_readers'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:6:0: [F0401(import-error)] Unable to import 'dataset_readers.dataset_reader' (invalid syntax (<string>, line 260))
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:12:4: [E1002(super-on-old-class)] Use of super on an old style class
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:28:76: [W0622(redefined-builtin)] Redefining built-in 'file'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:19:4: [C0103(invalid-name)] Invalid method name "_get_dialog_lines_and_conversations"
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:19:4: [R0201(no-self-use)] Method could be a function
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py:9:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+************* Module dataset_readers.dataset_reader_factory
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:18:0: [C0301(line-too-long)] Line too long (108/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:25:0: [C0301(line-too-long)] Line too long (139/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:29:0: [C0301(line-too-long)] Line too long (106/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:36:0: [C0301(line-too-long)] Line too long (106/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:43:0: [C0301(line-too-long)] Line too long (106/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:46:0: [C0304(missing-final-newline)] Final newline missing
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:21:4: [E0602(undefined-variable)] Undefined variable 'self'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:22:4: [E0602(undefined-variable)] Undefined variable 'self'
+:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dataset_reader_factory.py:23:4: [E0602(undefined-variable)] Undefined variable 'self'
+************* Module speech_to_text
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\__init__.py:1:0: [C0111(missing-docstring)] Missing module docstring
+************* Module speech_to_text.speech_to_text
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:16:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:40:0: [C0301(line-too-long)] Line too long (103/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:43:0: [C0301(line-too-long)] Line too long (116/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:5:0: [F0401(import-error)] Unable to import 'speech_recognition'
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:9:0: [C0103(invalid-name)] Invalid constant name "_logger"
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:10:0: [C0103(invalid-name)] Invalid constant name "_recognizer"
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:38:26: [W1202(logging-format-interpolation)] Use % formatting in logging functions but pass the % parameters as arguments
+:F:\Facultate -- Master 1\Metrici software -  Final project\speech_to_text\speech_to_text.py:40:26: [W1202(logging-format-interpolation)] Use % formatting in logging functions but pass the % parameters as arguments
+************* Module text_to_speech
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\__init__.py:1:0: [C0111(missing-docstring)] Missing module docstring
+************* Module text_to_speech.audio_profile
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py:36:0: [C0325(superfluous-parens)] Unnecessary parens after 'print' keyword
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py:41:0: [C0330(bad-continuation)] Wrong hanging indentation.
+                    description=__doc__,
+        |           ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py:42:0: [C0330(bad-continuation)] Wrong hanging indentation.
+                    formatter_class=argparse.RawDescriptionHelpFormatter)
+        |           ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py:13:0: [C0103(invalid-name)] Invalid function name "synthesize_text_with_audio_profile"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py:15:4: [F0401(import-error)] Unable to import 'google.cloud'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py:40:4: [C0103(invalid-name)] Invalid constant name "parser"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\audio_profile.py:50:4: [C0103(invalid-name)] Invalid constant name "args"
+************* Module text_to_speech.list_voices
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py:22:0: [C0325(superfluous-parens)] Unnecessary parens after 'print' keyword
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py:26:0: [C0325(superfluous-parens)] Unnecessary parens after 'print' keyword
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py:31:0: [C0325(superfluous-parens)] Unnecessary parens after 'print' keyword
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py:13:4: [F0401(import-error)] Unable to import 'google.cloud'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\list_voices.py:14:4: [F0401(import-error)] Unable to import 'google.cloud.texttospeech'
+************* Module text_to_speech.synthesize_file
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:48:0: [C0325(superfluous-parens)] Unnecessary parens after 'print' keyword
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:76:0: [C0304(missing-final-newline)] Final newline missing
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:14:4: [C0103(invalid-name)] Invalid constant name "parser"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:17:4: [C0103(invalid-name)] Invalid constant name "group"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:23:4: [C0103(invalid-name)] Invalid constant name "args"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:26:8: [W0105(pointless-string-statement)] String statement has no effect
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:27:8: [F0401(import-error)] Unable to import 'google.cloud'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:28:8: [C0103(invalid-name)] Invalid constant name "client"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:30:18: [E0602(undefined-variable)] Undefined variable 'text_file'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:31:12: [C0103(invalid-name)] Invalid constant name "text"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:32:12: [C0103(invalid-name)] Invalid constant name "input_text"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:36:8: [C0103(invalid-name)] Invalid constant name "voice"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:40:8: [C0103(invalid-name)] Invalid constant name "audio_config"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:43:8: [C0103(invalid-name)] Invalid constant name "response"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:54:-1: [W0105(pointless-string-statement)] String statement has no effect
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:55:8: [F0401(import-error)] Unable to import 'google.cloud'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:56:8: [C0103(invalid-name)] Invalid constant name "client"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:58:18: [E0602(undefined-variable)] Undefined variable 'ssml_file'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:59:12: [C0103(invalid-name)] Invalid constant name "ssml"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:60:12: [C0103(invalid-name)] Invalid constant name "input_text"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:64:8: [C0103(invalid-name)] Invalid constant name "voice"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:68:8: [C0103(invalid-name)] Invalid constant name "audio_config"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_file.py:71:8: [C0103(invalid-name)] Invalid constant name "response"
+************* Module text_to_speech.synthesize_text
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:68:0: [C0325(superfluous-parens)] Unnecessary parens after 'print' keyword
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:10:0: [F0401(import-error)] Unable to import 'google.cloud'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:15:4: [C0103(invalid-name)] Invalid constant name "parser"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:18:4: [C0103(invalid-name)] Invalid constant name "group"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:24:4: [C0103(invalid-name)] Invalid constant name "args"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:26:4: [C0103(invalid-name)] Invalid constant name "client"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:27:4: [C0103(invalid-name)] Invalid constant name "response"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:30:8: [W0105(pointless-string-statement)] String statement has no effect
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:31:8: [C0103(invalid-name)] Invalid constant name "input_text"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:31:60: [E0602(undefined-variable)] Undefined variable 'text'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:35:8: [C0103(invalid-name)] Invalid constant name "voice"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:39:8: [C0103(invalid-name)] Invalid constant name "audio_config"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:42:8: [C0103(invalid-name)] Invalid constant name "response"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:50:-1: [W0105(pointless-string-statement)] String statement has no effect
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:51:8: [C0103(invalid-name)] Invalid constant name "input_text"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:51:60: [E0602(undefined-variable)] Undefined variable 'ssml'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:55:8: [C0103(invalid-name)] Invalid constant name "voice"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:59:8: [C0103(invalid-name)] Invalid constant name "audio_config"
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\synthesize_text.py:62:8: [C0103(invalid-name)] Invalid constant name "response"
+************* Module text_to_speech.text_to_speech
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\text_to_speech.py:45:0: [C0325(superfluous-parens)] Unnecessary parens after 'print' keyword
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\text_to_speech.py:10:0: [F0401(import-error)] Unable to import 'playsound'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\text_to_speech.py:11:0: [F0401(import-error)] Unable to import 'google.cloud'
+:F:\Facultate -- Master 1\Metrici software -  Final project\text_to_speech\text_to_speech.py:14:36: [W0613(unused-argument)] Unused argument 'voice_gender'
+************* Module vocabulary_importers
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\__init__.py:1:0: [C0111(missing-docstring)] Missing module docstring
+************* Module vocabulary_importers.checkpoint_vocabulary_importer
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:20:0: [C0301(line-too-long)] Line too long (105/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:22:0: [C0301(line-too-long)] Line too long (117/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:31:0: [C0301(line-too-long)] Line too long (101/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:32:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:38:0: [C0301(line-too-long)] Line too long (136/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:38:0: [C0326(bad-whitespace)] No space allowed around keyword argument assignment
+        embeddings = tf.Variable(tf.contrib.framework.load_variable(vocabulary_dir, self.embeddings_variable_name), name = "embeddings")
+                                                                                                                         ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:4:0: [F0401(import-error)] Unable to import 'tensorflow'
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:10:0: [W0223(abstract-method)] Method '_process_token' is abstract in class 'VocabularyImporter' but is not overridden
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:46:56: [W0622(redefined-builtin)] Redefining built-in 'file'
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\checkpoint_vocabulary_importer.py:10:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+************* Module vocabulary_importers.dependency_based_vocabulary_importer
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py:17:0: [C0301(line-too-long)] Line too long (104/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py:20:0: [C0301(line-too-long)] Line too long (102/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py:21:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py:12:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\dependency_based_vocabulary_importer.py:6:0: [W0611(unused-import)] Unused path imported from os
+************* Module vocabulary_importers.flatfile_vocabulary_importer
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:12:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:13:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:23:0: [C0301(line-too-long)] Line too long (107/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:24:0: [C0301(line-too-long)] Line too long (130/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:32:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:38:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:42:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:44:0: [C0301(line-too-long)] Line too long (103/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:45:0: [C0301(line-too-long)] Line too long (129/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:4:0: [F0401(import-error)] Unable to import 'numpy'
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:10:0: [W0223(abstract-method)] Method '_process_token' is abstract in class 'VocabularyImporter' but is not overridden
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:47:71: [W0622(redefined-builtin)] Redefining built-in 'file'
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\flatfile_vocabulary_importer.py:10:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+************* Module vocabulary_importers.nnlm_en_vocabulary_importer
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\nnlm_en_vocabulary_importer.py:21:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\nnlm_en_vocabulary_importer.py:12:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\nnlm_en_vocabulary_importer.py:6:0: [W0611(unused-import)] Unused path imported from os
+************* Module vocabulary_importers.vocabulary_importer
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:13:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:15:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:15:0: [C0301(line-too-long)] Line too long (101/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:18:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:18:0: [C0301(line-too-long)] Line too long (103/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:19:0: [C0301(line-too-long)] Line too long (139/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:21:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:21:0: [C0301(line-too-long)] Line too long (103/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:22:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:22:0: [C0301(line-too-long)] Line too long (115/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:25:0: [C0301(line-too-long)] Line too long (126/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:63:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:77:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:84:0: [C0301(line-too-long)] Line too long (122/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:88:0: [C0301(line-too-long)] Line too long (133/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:88:0: [C0326(bad-whitespace)] No space allowed around keyword argument assignment
+    def import_vocabulary(self, vocabulary_dir, normalize = True, import_mode = VocabularyImportMode.External, dataset_vocab = None):
+                                                          ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:88:0: [C0326(bad-whitespace)] No space allowed around keyword argument assignment
+    def import_vocabulary(self, vocabulary_dir, normalize = True, import_mode = VocabularyImportMode.External, dataset_vocab = None):
+                                                                              ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:88:0: [C0326(bad-whitespace)] No space allowed around keyword argument assignment
+    def import_vocabulary(self, vocabulary_dir, normalize = True, import_mode = VocabularyImportMode.External, dataset_vocab = None):
+                                                                                                                             ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:90:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:94:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:105:0: [C0301(line-too-long)] Line too long (124/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:112:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:116:0: [C0301(line-too-long)] Line too long (137/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:119:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:121:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:122:0: [C0301(line-too-long)] Line too long (114/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:125:0: [C0301(line-too-long)] Line too long (122/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:132:0: [C0326(bad-whitespace)] No space allowed around keyword argument assignment
+        vocabulary = Vocabulary(external_embeddings = embeddings_matrix)
+                                                    ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:135:0: [C0326(bad-whitespace)] No space allowed around keyword argument assignment
+        vocabulary.compile(loading = True)
+                                   ^
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:138:0: [C0301(line-too-long)] Line too long (116/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:143:0: [C0301(line-too-long)] Line too long (123/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:144:0: [C0301(line-too-long)] Line too long (107/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:150:0: [C0301(line-too-long)] Line too long (119/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:151:0: [C0301(line-too-long)] Line too long (101/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:152:0: [C0301(line-too-long)] Line too long (118/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:153:0: [C0301(line-too-long)] Line too long (115/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:154:0: [C0301(line-too-long)] Line too long (141/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:155:0: [C0301(line-too-long)] Line too long (101/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:162:0: [C0301(line-too-long)] Line too long (111/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:167:0: [C0301(line-too-long)] Line too long (108/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:168:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:170:0: [C0301(line-too-long)] Line too long (103/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:183:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:5:0: [F0401(import-error)] Unable to import 'numpy'
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:6:0: [F0401(import-error)] Unable to import 'enum'
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:11:0: [W0232(no-init)] Class has no __init__ method
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:11:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:34:0: [R0903(too-few-public-methods)] Too few public methods (0/2)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:126:16: [E1101(no-member)] Instance of 'VocabularyImportMode' has no 'name' member
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:138:4: [C0103(invalid-name)] Invalid method name "apply_dataset_filters_if_applicable"
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:138:4: [C0111(missing-docstring)] Missing method docstring
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:138:4: [R0201(no-self-use)] Method could be a function
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:165:4: [C0103(invalid-name)] Invalid method name "_normalize_tokens_with_embeddings"
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer.py:165:4: [R0201(no-self-use)] Method could be a function
+************* Module vocabulary_importers.vocabulary_importer_factory
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py:5:0: [C0301(line-too-long)] Line too long (107/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py:7:0: [C0301(line-too-long)] Line too long (103/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py:18:0: [C0301(line-too-long)] Line too long (116/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\vocabulary_importer_factory.py:27:0: [C0301(line-too-long)] Line too long (150/100)
+************* Module vocabulary_importers.word2vec_wikipedia_vocabulary_importer
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py:17:0: [C0301(line-too-long)] Line too long (106/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py:20:0: [C0301(line-too-long)] Line too long (115/100)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py:21:0: [C0303(trailing-whitespace)] Trailing whitespace
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py:38:12: [E0602(undefined-variable)] Undefined variable 'simple_type_of_tokens'
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py:42:4: [E0213(no-self-argument)] Method should have "self" as first argument
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py:12:0: [R0903(too-few-public-methods)] Too few public methods (1/2)
+:F:\Facultate -- Master 1\Metrici software -  Final project\vocabulary_importers\word2vec_wikipedia_vocabulary_importer.py:6:0: [W0611(unused-import)] Unused path imported from os

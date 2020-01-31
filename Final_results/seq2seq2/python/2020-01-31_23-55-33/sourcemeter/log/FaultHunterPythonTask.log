@@ -1,0 +1,9 @@
+[2020-01-31 23:55:35] Start:FaultHunterPythonTask
+FaultHunterPython 8.2.0 - Python (build 8717#45192 Win64) - (C) 2001-2016 FrontEndART Ltd.
+
+Statistics:
+	Check time                   :       0.00s
+	Total time                   :       0.06s
+	Peak memory usage            :          8MB
+
+[2020-01-31 23:55:36] End:FaultHunterPythonTask Result:OK

@@ -1,0 +1,13 @@
+[2020-01-31 23:55:35] Start:PAN2LimTask
+PAN2Lim 8.2.0 (build 8717#45192 Win64) - (C) 2001-2016 FrontEndART Ltd.
+Loading file:    F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\sourcemeter\asg\seq2seq2.psi
+
+Statistics:
+	Converting time              :       0.01s
+	Saving asg time              :       0.00s
+	Dumping limml time           :       0.00s
+	Total time                   :       0.01s
+	Peak memory usage            :          4MB
+	Number of not existed files  :          0
+
+[2020-01-31 23:55:35] End:PAN2LimTask Result:OK

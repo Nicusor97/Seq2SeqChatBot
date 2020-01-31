@@ -1,0 +1,22 @@
+[2020-01-31 23:55:35] Start:Pylint2GraphTask
+Pylint2Graph 8.2.0 (build 8717#45192 Win64) - (C) 2001-2016 FrontEndART Ltd.
+Loading LIM ASG file "F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\sourcemeter\asg\seq2seq2.lim"
+Loading filter file "F:\Facultate -- Master 1\Metrici software si inginerie calitatii\SourceMeter-8.2.0-x64-windows\SourceMeter-8.2.0-x64-windows\Python\Final_results\seq2seq2\python\2020-01-31_23-55-33\sourcemeter\asg\seq2seq2.flim"
+Using configuration: "Default"
+Warning: Warning 'PYLINT_NNIM' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:6 col:1 endline:6 endcol:1]
+Warning: Warning 'PYLINT_TFPM' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:9 col:1 endline:9 endcol:1]
+Warning: Warning 'PYLINT_SuOOC' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:12 col:5 endline:12 endcol:5]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:18 col:1 endline:18 endcol:1]
+Warning: Warning 'PYLINT_IN' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:19 col:5 endline:19 endcol:5]
+Warning: Warning 'PYLINT_NSU' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:19 col:5 endline:19 endcol:5]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:26 col:1 endline:26 endcol:1]
+Warning: Warning 'PYLINT_ReB' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:28 col:77 endline:28 endcol:77]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:40 col:1 endline:40 endcol:1]
+Warning: Warning 'PYLINT_IED' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:41 col:1 endline:41 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:44 col:1 endline:44 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:45 col:1 endline:45 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:46 col:1 endline:46 endcol:1]
+Warning: Warning 'PYLINT_BW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:47 col:1 endline:47 endcol:1]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:58 col:1 endline:58 endcol:1]
+Warning: Warning 'PYLINT_TW' cannot be added as no node found at [path:F:\Facultate -- Master 1\Metrici software -  Final project\dataset_readers\dailydialog_dataset_reader.py line:63 col:1 endline:63 endcol:1]
+[2020-01-31 23:55:36] End:Pylint2GraphTask Result:OK
