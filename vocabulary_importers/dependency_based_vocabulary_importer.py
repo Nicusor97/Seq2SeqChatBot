@@ -13,6 +13,10 @@ class DependencyBasedVocabularyImporter(FlatFileVocabularyImporter):
     """Importer implementation for the Dependency-Based vocabulary
     """
     def __init__(self):
+        """
+        This method is called when an object is created from DependencyBasedVocabularyImporter class and
+        it allows the class to initialize the attributes of the class.
+        """
         super(DependencyBasedVocabularyImporter, self).__init__("dependency_based", "deps.words", " ")
     
     def _process_token(self, token):

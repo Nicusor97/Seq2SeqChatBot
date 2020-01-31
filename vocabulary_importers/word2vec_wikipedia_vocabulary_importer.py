@@ -13,6 +13,10 @@ class Word2vecWikipediaVocabularyImporter(CheckpointVocabularyImporter):
     """Importer implementation for the word2vec wikipedia vocabulary
     """
     def __init__(self):
+        """
+        This method is called when an object is created from Word2vecWikipediaVocabularyImporter class and
+        it allows the class to initialize the attributes of the class.
+        """
         super(Word2vecWikipediaVocabularyImporter, self).__init__("word2vec_wikipedia", "tokens.txt", "embeddings")
     
     def _process_token(self, token):
@@ -24,18 +28,28 @@ class Word2vecWikipediaVocabularyImporter(CheckpointVocabularyImporter):
         Returns:
             See base class
         """
+        if token == "#!#":
+            token = "!"
+        elif token == "#.#":
+            token = "."
+        elif token == "#?#":
+            token = "?"
+        else:
+            simple_type_of_tokens(token)
 
+        return token
+
+    def simple_type_of_tokens(token):
+        """
+        This method is used to return the type of token that is SOS, EOS, OUT
+        """
         if token == "<S>":
             token = Vocabulary.SOS
         elif token == "</S>":
             token = Vocabulary.EOS
         elif token == "<UNK>":
             token = Vocabulary.OUT
-        elif token == "#!#":
-            token = "!"
-        elif token == "#.#":
-            token = "."
-        elif token == "#?#":
-            token = "?"
 
         return token
+
+

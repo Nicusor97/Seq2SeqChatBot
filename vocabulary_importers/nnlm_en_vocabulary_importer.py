@@ -13,6 +13,10 @@ class NnlmEnVocabularyImporter(CheckpointVocabularyImporter):
     """Importer implementation for the nnlm english vocabulary
     """
     def __init__(self):
+        """
+        This method is called when an object is created from NnlmEnVocabularyImporter class and
+        it allows the class to initialize the attributes of the class.
+        """
         super(NnlmEnVocabularyImporter, self).__init__("nnlm_en", "tokens.txt", "embeddings")
     
     def _process_token(self, token):

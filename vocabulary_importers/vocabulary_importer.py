@@ -36,6 +36,10 @@ class VocabularyImportStats(object):
     """
 
     def __init__(self):
+        """
+        This method is called when an object is created from VocabularyImportStats class and
+        it allows the class to initialize the attributes of the class.
+        """
         self.external_vocabulary_size = None
         self.dataset_vocabulary_size = None
         self.intersection_size = None
@@ -115,7 +119,24 @@ class VocabularyImporter(object):
         
         import_stats.external_vocabulary_size = len(tokens_with_embeddings)
         
-        #Apply dataset filters if applicable
+        self.apply_dataset_filters_if_applicable(dataset_vocab, import_stats, import_mode, tokens_with_embeddings)
+
+        if len(tokens_with_embeddings) == 0:
+            raise ValueError("Imported vocabulary size is 0. Try a different VocabularyImportMode (currently {0})".format(
+                VocabularyImportMode(import_mode).name))
+
+        tokens, embeddings_matrix = zip(*tokens_with_embeddings.items())
+        embeddings_matrix = np.array(embeddings_matrix, dtype=np.float32)
+
+        #Create the vocabulary instance
+        vocabulary = Vocabulary(external_embeddings = embeddings_matrix)
+        for i in range(len(tokens)):
+            vocabulary.load_word(tokens[i], i)
+        vocabulary.compile(loading = True)
+        return vocabulary, import_stats
+
+    def apply_dataset_filters_if_applicable(self, dataset_vocab, import_stats, import_mode, tokens_with_embeddings):
+                #Apply dataset filters if applicable
         if dataset_vocab is not None:
             import_stats.dataset_vocabulary_size = dataset_vocab.size()
 
@@ -140,22 +161,13 @@ class VocabularyImporter(object):
                     if dataset_token not in tokens_with_embeddings:
                         tokens_with_embeddings[dataset_token] = np.random.normal(emb_mean, emb_stdev, emb_size)
 
-        if len(tokens_with_embeddings) == 0:
-            raise ValueError("Imported vocabulary size is 0. Try a different VocabularyImportMode (currently {0})".format(
-                VocabularyImportMode(import_mode).name))
-
-        tokens, embeddings_matrix = zip(*tokens_with_embeddings.items())
-        embeddings_matrix = np.array(embeddings_matrix, dtype=np.float32)
-
-        #Create the vocabulary instance
-        vocabulary = Vocabulary(external_embeddings = embeddings_matrix)
-        for i in range(len(tokens)):
-            vocabulary.load_word(tokens[i], i)
-        vocabulary.compile(loading = True)
-        return vocabulary, import_stats
 
     def _normalize_tokens_with_embeddings(self, tokens_with_embeddings):
-        """Convert all word tokens to lower case and then average the embedding vectors for any duplicate words
+        """
+        Convert all word tokens to lower case and then average the embedding vectors for any duplicate words
+        
+        Args:
+            tokens_with_embeddings: This is a list of all tokens from a datase that contain embeddings.
         """
         norm_tokens_with_embeddings = OrderedDict()
         for token, embedding in tokens_with_embeddings.items():

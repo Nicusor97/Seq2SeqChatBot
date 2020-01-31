@@ -12,7 +12,6 @@ class CheckpointVocabularyImporter(VocabularyImporter):
     """
 
     def __init__(self, vocabulary_name, tokens_filename, embeddings_variable_name):
-        super(CheckpointVocabularyImporter, self).__init__(vocabulary_name)
         """Initialize the CheckpointVocabularyImporter.
 
         Args:
@@ -22,6 +21,7 @@ class CheckpointVocabularyImporter(VocabularyImporter):
 
             embeddings_variable_name: Name of the variable to read out of the checkpoint. Subclass must pass this in.
         """
+        VocabularyImporter.__init__(vocabulary_name)
 
         self.tokens_filename = tokens_filename
 
